@@ -1,14 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REPR8 - Reparations Through Generational Wealth</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>REPR8</h1>
-    <p>Coming Soon</p>
-    <script src="script.js"></script>
-</body>
-</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a4d3a, #2d5a47);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffd700;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
